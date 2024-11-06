@@ -1,7 +1,8 @@
 # 20241107-Haskell-Functional-Programming-ML
 
 natural number in lambda calculus and haskell
-let 1=
+with f,lambda,n
+let 1= 
 let 2=
 let n=
 
