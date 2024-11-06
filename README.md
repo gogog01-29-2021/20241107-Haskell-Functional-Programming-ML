@@ -33,6 +33,11 @@ append_empty([3],[])->append_empty([],[]).
 append_empty([2|3],[2|]) :- append_empty([3],[]).
 [1,2,3]
 
+
+Reference
+Stanford cryptography
+https://crypto.stanford.edu/~blynn/lambda/pcf.html
+
 Exploration of state space
 
 8Queens in prolog ;8 QUeens in c needs 3 functions
