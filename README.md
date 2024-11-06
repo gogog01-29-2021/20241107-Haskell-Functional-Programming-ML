@@ -27,3 +27,5 @@ append_empty([2|3],[2|]) :- append_empty([3],[]).
 [1,2,3]
 
 Exploration of state space
+
+8Queens in prolog
