@@ -28,4 +28,4 @@ append_empty([2|3],[2|]) :- append_empty([3],[]).
 
 Exploration of state space
 
-8Queens in prolog
+8Queens in prolog ;8 QUeens in c needs 3 functions
