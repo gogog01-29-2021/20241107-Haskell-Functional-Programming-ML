@@ -15,3 +15,9 @@ print([1..10]>>=(\x -> if odd x then [x*2] else[]))
 ["Node:0,5.5","  Leaf:TridaA:]  
 
 
+append_empty([],L)    
+append_empty([H|T],[H|T]) :- append_empty(T,T1).  
+append_empty([],[1,2,3])  
+append_empty([1],[2,3])->append_empty([],[2,3]).
+append_empty([2],[3])->append_empty([],[3]).
+append_empty([3],[])->append_empty([],[]).
